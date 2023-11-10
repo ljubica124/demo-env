@@ -4,7 +4,7 @@
   gather_facts: false
 
   tasks:
-    - name: create security group.
+    - name: Create security group.
       amazon.aws.ec2_security_group:
         name: "web-app-sec"
         description: "Sec group for app web-app"

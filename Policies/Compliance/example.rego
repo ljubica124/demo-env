@@ -9,7 +9,7 @@ SpotterPolicy[result] {
     result := {
 		"correlation_id": task.task_id,
 		"check_type": "TASK",
-		"subcode": "E00012",
+		"subcode": "CapitalLetter",
 		"message": "Task names must start with a capital letter."
 	}
 }
