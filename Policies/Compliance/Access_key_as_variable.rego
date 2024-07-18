@@ -2,7 +2,7 @@ package Spotter
 
 SpotterPolicy[result] {
     task := input.tasks[i]
-    task_args := task.task_args["steampunk.aws.ec2_vpc_info"].auth.access_key
+    task_args := task.task_args["amazon.aws.ec2_security_group"].access_key
     regex.match("{{.*}}", task_args) == false
 
     result := {
